@@ -7,7 +7,8 @@ public class Application {
 		
 		/* 추상클래스는 생성자는 가질 수 있지만 인스턴스 생성은 하지 못한다.*/
 //		Product product = new Product();
-
+		
+		Product smartPhone = new SmartPhone();
 	}
 
 }

@@ -5,7 +5,7 @@ public abstract class Product {
 	
 	public Product() {
 		
-		System.out.println();
+		System.out.println("Product의 기본 생성자 호출됨...");
 	}
 		
 
