@@ -9,6 +9,12 @@ public class Application {
 //		Product product = new Product();
 		
 		Product smartPhone = new SmartPhone();
+		smartPhone.printField();
+		Product.staticMethod();
+		
+		smartPhone.abstMethod();
+		if(smartPhone instanceof SmartPhone) {
+		((SmartPhone) smartPhone).printSmartPhone();
+		}
 	}
-
 }
